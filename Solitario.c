@@ -169,7 +169,7 @@ void player(card* target,char* game[][4],int* uCards,int* sCards){
         scanf("%d",&choice);
         
         while (choice==1) {
-            printf("coordinates (ex. 1 3 for 1st row - 3rd column):");
+            printf("coordinates (ex. 1 3 for 1st column - 3rd row):");
             scanf("%d%d",&coord[0],&coord[1]);
             
             useCard(coord,game,target);
