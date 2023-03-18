@@ -15,8 +15,8 @@ git clone https://github.com/alessandroPalazzolo/solitaire.git
 ## Usage
 
 ```bash
-cc Solitario.c -o Solitario.o
-./Solitario.o
+cc Solitario.c -o Solitario
+./Solitario
 ```
 ## License
 
